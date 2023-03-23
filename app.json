@@ -16,7 +16,6 @@
         "API_ID": {
             "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps",
             "required": true
-			"value": "9042184"
         },
         "HNDLR": {
             "description": "ini akan digunakan sebagai prefix di semua perintah",
@@ -26,7 +25,6 @@
         "API_HASH": {
             "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps",
             "required": true
-			"value": "e726768c9112de0724acb5387eaedb99"
         },
         "SUDO_USERS": {
             "description": "Daftar User ID pengguna dihitung sebagai admin di semua tempat (pemisah menggunakan space)",
