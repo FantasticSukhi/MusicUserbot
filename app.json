@@ -1,0 +1,52 @@
+{
+    "name": "MusicUserbot",
+    "description": "MusicUserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.",
+    "logo": "https://telegra.ph/file/d59758040335873054b436.jpg",
+    "keywords": [
+        "Telegram",
+        "MusicPlayer",
+        "VideoPlayer"
+    ],
+    "repository": "https://github.com/FantasticSukhi/MusicUserbot",
+    "env": {
+        "SESSION": {
+            "description": "Pyrogram String Session",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps",
+            "required": true
+			"value": "9042184"
+        },
+        "HNDLR": {
+            "description": "ini akan digunakan sebagai prefix di semua perintah",
+            "required": true,
+            "value": "+"
+        },
+        "API_HASH": {
+            "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps",
+            "required": true
+			"value": "e726768c9112de0724acb5387eaedb99"
+        },
+        "SUDO_USERS": {
+            "description": "Daftar User ID pengguna dihitung sebagai admin di semua tempat (pemisah menggunakan space)",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    },
+    "stack": "container"
+}
