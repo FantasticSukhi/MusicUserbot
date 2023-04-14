@@ -15,19 +15,19 @@ async def repo(client, m: Message):
     REPO = f"""
 <b>👋 Hallo {m.from_user.mention}!
 
-🗃️ Music Dan Video Player UserBot
+🗃️ Music N Video Player UserBot
 
 🔰 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
 
-👩‍💻 Dipersembahkan Oleh 
-• [Mamba](https://t.me/MAMBA_BOTS)
+👩‍💻 Support 
+• [FULL ON MASTI](https://t.me/+9Jfz4TpU3fkzOGFI)
 
 📝 Persyaratan
 • Python 3.8+
 • FFMPEG
 • Nodejs v16+
 
-[Repo MusicUserbot](https://github.com/FantasticSukhi/MusicUserbot)
+[Zain Music Userbot](https://t.me/The_Eternity_Soul)
 
 📝 Variabel Yang Dibutuhkan
 • `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
